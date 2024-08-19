@@ -1,0 +1,82 @@
+body {
+    text-align: center;
+    background-color: #bbcea8;
+    background-image: linear-gradient(#adb6a4, #adb6a4, #7b896c, rgb(36, 36, 36));
+  }
+  
+  .container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmin;
+  }
+  
+  .box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 8vmin;
+    color: #748067;
+    background-color: aliceblue;
+  }
+  
+  .box:hover {
+    opacity: 70%;
+  }
+  
+  #reset-btn {
+    padding: 1rem;
+    background-color: #0b0a07;
+    color: #adb6a4;
+    border-radius: 1rem;
+  }
+  
+  #reset-btn:hover {
+    opacity: 70%;
+  }
+  
+  #gameName {
+    font-family: "San Francisco";
+    font-weight: 600;
+    font-size: 4vmin;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  }
+  
+  #new-btn {
+    padding: 1rem;
+    background-color: #0b0a07;
+    color: #adb6a4;
+    border-radius: 1rem;
+  }
+  
+  #new-btn:hover {
+    opacity: 70%;
+  }
+  
+  #msg {
+    font-size: 5vmin;
+    text-align: center;
+  }
+  
+  .msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .hide {
+    display: none;
+  }
